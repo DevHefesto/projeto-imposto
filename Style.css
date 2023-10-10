@@ -1,0 +1,115 @@
+html {
+    font-size: 16px;
+}
+
+.container {
+    /* Shelf Container */
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.shelf {
+    /* Shelf Image */
+    height: 50rem;
+    width: 50rem;
+    z-index: 0;
+    position: absolute;
+}
+
+.image-grid {
+    /* Products Grid */
+    display: flex;
+    z-index: 1;
+}
+
+.image1 {
+    /* Steak Image */
+    width: 6.831rem;
+    height: 6.5rem;
+    position: relative;
+    top: 13.5rem;
+    left: 15rem;
+}
+
+.image2 {
+    /* Car Image*/
+    width: 9rem;
+    height: 6.5rem;
+    position: relative;
+    top: 13.5rem;
+    left: 19rem;
+}
+
+.image3 {
+    /* Blackbeans Image */
+    width: 6.831rem;
+    height: 6.5rem;
+    position: relative;
+    top: 13.5rem;
+    left: 23rem;
+}
+
+.image4 {
+    /* Gasoline Image */
+    width: 6.826rem;
+    height: 7.5rem;
+    position: relative;
+    top: 23rem;
+    right: 8rem;
+}
+
+.image5 {
+    /* Smartphone Image */
+    width: 4.163rem;
+    height: 7.5rem;
+    position: relative;
+    top: 23rem;
+    right: 1.4rem;
+}
+
+.image6 {
+    /* Perfume Image */
+    width: 5.537rem;
+    height: 7.5rem;
+    position: relative;
+    top: 23rem;
+    left: 6rem;
+}
+
+.image7 {
+    /* Videogame Image */
+    width: 7.5rem;
+    height: 7.5rem;
+    position: relative;
+    top: 33rem;
+    right: 25rem;
+}
+
+.image8 {
+    /* Medication Image */
+    width: 7.249rem;
+    height: 7.5rem;
+    position: relative;
+    top: 33rem;
+    right: 20rem;
+}
+
+.image9 {
+    /* T-Shirt Image */
+    width: 6.857em;
+    height: 7.5rem;
+    position: relative;
+    top: 33rem;
+    right: 15rem;
+}
+
+.product-info {
+    /* Text Component */
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: none;
+    z-index: 2;
+}
