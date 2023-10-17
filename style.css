@@ -2,11 +2,25 @@ html {
     font-size: 16px;
 }
 
-.container {
+.mt-50{
+    margin-top: 50px !important;
+}
+
+.container-1 {
     /* Shelf Container */
     display: flex;
     justify-content: center;
     margin: 0;
+    position: relative;
+}
+
+.product-info {
+    /* Componente de texto */
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: none;
 }
 
 .shelf {
@@ -25,7 +39,7 @@ html {
 
 .image1 {
     /* Steak Image */
-    width: 6.831rem;
+    width: 9rem;
     height: 6.5rem;
     position: relative;
     top: 13.5rem;
@@ -34,7 +48,7 @@ html {
 
 .image2 {
     /* Car Image*/
-    width: 9rem;
+    width: 6.831rem;
     height: 6.5rem;
     position: relative;
     top: 13.5rem;
@@ -47,7 +61,7 @@ html {
     height: 6.5rem;
     position: relative;
     top: 13.5rem;
-    left: 23rem;
+    left: 23.5rem;
 }
 
 .image4 {
@@ -56,7 +70,7 @@ html {
     height: 7.5rem;
     position: relative;
     top: 23rem;
-    right: 8rem;
+    right: 6.8rem;
 }
 
 .image5 {
@@ -65,7 +79,7 @@ html {
     height: 7.5rem;
     position: relative;
     top: 23rem;
-    right: 1.4rem;
+    right: 0.4rem;
 }
 
 .image6 {
@@ -74,16 +88,16 @@ html {
     height: 7.5rem;
     position: relative;
     top: 23rem;
-    left: 6rem;
+    left: 6.5rem;
 }
 
 .image7 {
     /* Videogame Image */
-    width: 7.5rem;
-    height: 7.5rem;
+    width: 8rem;
+    height: 6rem;
     position: relative;
-    top: 33rem;
-    right: 25rem;
+    top: 34rem;
+    right: 24rem;
 }
 
 .image8 {
@@ -92,7 +106,7 @@ html {
     height: 7.5rem;
     position: relative;
     top: 33rem;
-    right: 20rem;
+    right: 19.5rem;
 }
 
 .image9 {
@@ -104,12 +118,56 @@ html {
     right: 15rem;
 }
 
-.product-info {
-    /* Text Component */
+.product-info-1 {
     position: absolute;
-    background-color: white;
-    padding: 10px;
-    border: 1px solid #ccc;
-    display: none;
-    z-index: 2;
+    top: 0;
+    left: 15rem;
+}
+
+.product-info-2 {
+    position: absolute;
+    top: 0;
+    left: 53rem;
+}
+
+.product-info-3 {
+    position: absolute;
+    top: 0;
+    right: 15rem;
+}
+
+.product-info-4 {
+    position: absolute;
+    top: 15rem;
+    left: 15rem;
+}
+
+.product-info-5 {
+    position: absolute;
+    top: 0;
+    left: 53rem;
+}
+
+.product-info-6 {
+    position: absolute;
+    top: 15rem;
+    right: 15rem;
+}
+
+.product-info-7 {
+    position: absolute;
+    top: 30rem;
+    left: 15rem;
+}
+
+.product-info-8 {
+    position: absolute;
+    top: 0;
+    left: 53rem;
+}
+
+.product-info-9 {
+    position: absolute;
+    top: 30rem;
+    right: 15rem;
 }
