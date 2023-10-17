@@ -2,8 +2,12 @@ html {
     font-size: 16px;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .mt-50{
-    margin-top: 50px !important;
+    margin-top: 80px !important;
 }
 
 .container-1 {
@@ -18,9 +22,21 @@ html {
     /* Componente de texto */
     position: absolute;
     background-color: white;
-    padding: 10px;
-    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 rgb(50, 50, 50, 0.22);
     display: none;
+}
+
+.product-info p {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.product-info h2 {
+    text-align: center;
 }
 
 .shelf {
@@ -43,7 +59,7 @@ html {
     height: 6.5rem;
     position: relative;
     top: 13.5rem;
-    left: 15rem;
+    left: 15rem;    
 }
 
 .image2 {
