@@ -7,7 +7,7 @@ body {
     background-color: rgba(255, 255, 255, 0.597);
 }
 
-.mt-50{
+.mt-50 {
     margin-top: 60px !important;
 }
 
@@ -52,6 +52,7 @@ body {
     /* Products Grid */
     display: flex;
     z-index: 1;
+    position: relative;
 }
 
 .image1 {
@@ -60,7 +61,7 @@ body {
     height: 6.5rem;
     position: relative;
     top: 13.5rem;
-    left: 15rem;    
+    left: 15rem;
 }
 
 .image2 {
@@ -138,53 +139,56 @@ body {
 .product-info-1 {
     position: absolute;
     top: 0;
-    left: 15rem;
+    left: -10rem;
 }
 
 .product-info-2 {
     position: absolute;
-    top: 0;
-    left: 53rem;
+    bottom: -6rem;
+    left: 24rem;
 }
 
 .product-info-3 {
+    min-width: 11rem;
     position: absolute;
     top: 0;
-    right: 15rem;
+    left: 61.5rem;
 }
 
 .product-info-4 {
     position: absolute;
-    top: 15rem;
-    left: 15rem;
+    top: 16rem;
+    left: -10rem;
 }
 
 .product-info-5 {
     position: absolute;
-    top: 0;
-    left: 53rem;
+    bottom: -6rem;
+    left: 24rem;
 }
 
 .product-info-6 {
+    min-width: 11rem;
     position: absolute;
-    top: 15rem;
-    right: 15rem;
+    top: 16rem;
+    left: 61.5rem;
 }
 
 .product-info-7 {
     position: absolute;
     top: 30rem;
-    left: 15rem;
+    left: -10rem;
 }
 
 .product-info-8 {
     position: absolute;
-    top: 0;
-    left: 53rem;
+    bottom: -6rem;
+    left: 24rem;
 }
 
 .product-info-9 {
+    min-width: 11rem;
     position: absolute;
-    top: 30rem;
-    right: 15rem;
+    top: 25rem;
+    left: 61.5rem;
 }
